@@ -19,6 +19,7 @@ TOKENS = [
     ("FLOAT", r"\bfloat\b"),
     ("INT", r"\bint\b"),
     ("UINT", r"\buint\b"),
+    ("HALF",r"\bhalf\b"),
     ("DOUBLE", r"\bdouble\b"),
     ("SAMPLER", r"\bsampler\b"),
     ("IDENTIFIER", r"[a-zA-Z_][a-zA-Z_0-9]*"),
@@ -87,6 +88,7 @@ KEYWORDS = {
     "for": "FOR",
     "return": "RETURN",
     "const": "CONST",
+    "half" : "HALF",
 }
 
 

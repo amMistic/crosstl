@@ -37,6 +37,7 @@ class HLSLCodeGen:
             "bvec4": "bool4",
             "float": "float",
             "double": "double",
+            "half" : "half",
             "sampler2D": "Texture2D",
             "samplerCube": "TextureCube",
             "sampler": "SamplerState",

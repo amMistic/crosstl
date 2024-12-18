@@ -189,6 +189,7 @@ class HLSLParser:
             "UINT",
             "BOOL",
             "IDENTIFIER",
+            "HALF",
         ]:
             return self.parse_variable_declaration_or_assignment()
         elif self.current_token[0] == "IF":
@@ -212,6 +213,7 @@ class HLSLParser:
             "UINT",
             "BOOL",
             "IDENTIFIER",
+            "HALF",
         ]:
             # Handle variable declaration (e.g., int a = b;)
             first_token = self.current_token

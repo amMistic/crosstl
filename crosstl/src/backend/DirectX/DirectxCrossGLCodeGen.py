@@ -27,6 +27,7 @@ class HLSLToCrossGLConverter:
             "bool4": "bvec4",
             "float": "float",
             "double": "double",
+            "half" : "half",
             "Texture2D": "sampler2D",
             "TextureCube": "samplerCube",
         }
